@@ -89,3 +89,83 @@ ul {
     width: 100px;
     height: 100px;
 }
+
+.row-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    text-align: left;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light-italic;
+    max-width: 800px;
+    padding-top: 150px;
+}
+
+.signature {
+    align-self: flex-end;
+    padding-right: 600px;
+    padding-bottom: 150px;
+}
+
+.row-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.banner {
+    padding: 30px 100px;
+    background-color: #3882f6;
+    display: flex;
+    gap: 150px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.banner-header {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.banner-subtext {
+    color: #f9faf8;
+    margin: 0;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+.sign-up {
+    border: 2px solid #f9faf8;
+    
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    flex-direction: column-reverse;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
